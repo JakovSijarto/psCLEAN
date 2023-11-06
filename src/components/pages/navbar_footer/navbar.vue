@@ -1,0 +1,132 @@
+<template>
+    <div class="mx-auto h-[112px] w-full fixed">
+        <nav class="flex items-center w-full justify-center bg-[#000E39] px-4 max-[570px]:hidden">
+                <div class="h-[42px] w-[1280px] flex items-center text-white max-[1000px]:w-full">
+                    <div class="w-[200px] h-[242px] bg-black  max-[1000px]:hidden">a</div>
+                    <div class="w-full flex justify-start text-[14px] pl-4">
+                        <img src="../../../assets/navbar-footer/phone_navbar.svg" alt="" class="w-[20px]">
+                        <a class="text-[#c2cdeb] nav-font pl-2" href="#">062-868-04-99</a>
+                        <div class="relative pl-[44px] ml-[44px] nav-before flex flex-row">
+                            <img src="../../../assets/navbar-footer/mail_navbar.svg" alt="" class="w-[20px]">
+                            <a class="text-[#c2cdeb] nav-font pl-2" href="#">psclean906@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <img src="../../../assets/navbar-footer/navbar_facebook.svg" alt="" class="w-[15px] mr-4">
+                        <img src="../../../assets/navbar-footer/instagram_navbar.svg" alt="" class="w-[15px]">
+                    </div>
+                </div>
+        </nav>
+        <nav class="bg-[#007CFB] flex items-center w-full justify-center px-4 max-[570px]:bg-white">
+            <div class="h-[70px] w-[1280px] flex items-center text-white max-[1000px]:w-full">
+                <p class="w-full flex justify-start text-[14px] pl-4 min-[1000px]:hidden">LOGO</p>
+                <ul class="flex w-full justify-end text-white font-semibold max-[571px]:hidden">
+                    <li class="pr-[8px]">O nama</li>
+                    <li class="px-[16px]">Cjenik</li>
+                    <li class="pl-[8px]">Kontakt</li>
+                </ul>
+                <ul
+          class="fixed flex justify-between items-center min-[571px]:hidden z-[101] bg-[#FAF9F6] w-full top-0 left-0 px-[1em] py-[1em]"
+        >
+          <li class="flex-1" id="navbar_logo">
+            LOGO
+          </li>
+
+          <button
+            type="button"
+            id="navbar-toggle"
+            aria-controls="navbar-menu"
+            class="w-[30px] h-[30px] flex justify-between items-center"
+            :class="{ active: isActive }"
+            @click="showMobile"
+          >
+            <span
+              aria-hidden="true"
+              class="bg-[#1f2233] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+              :class="{
+                'rotate-45': isActive,
+                ' -translate-y-1.5': !isActive,
+              }"
+            ></span>
+            <span
+              aria-hidden="true"
+              class="bg-[#1f2233] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+              :class="{ 'opacity-0': isActive }"
+            ></span>
+            <span
+              aria-hidden="true"
+              class="bg-[#1f2233] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+              :class="{
+                '-rotate-45': isActive,
+                ' translate-y-1.5': !isActive,
+              }"
+            ></span>
+          </button>
+        </ul>
+        <ul
+          @click="showMobile"
+          id="hamburger-menu"
+          class="fixed w-[60%] h-screen shadow-css text-[#3a4268] text-[15px] font-semibold flex flex-col items-center gap-[3em] min-[571px]:hidden bg-[#FAF9F6] pt-[15vh] z-[100] overflow-hidden right-[140%]"
+          :class="{ active: isActive }"
+        >
+          <li class="" id="navbar_naslovnica">
+            LOGO
+          </li>
+
+          <li class="" id="navbar_naslovnica">
+            O nama
+          </li>
+          <li class="" id="navbar_naslovnica">
+            Cjenik
+          </li>
+          <li class="" id="navbar_naslovnica">
+            Kontakt
+          </li>
+        </ul>
+            </div>
+        </nav>
+    </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      isActive: false,
+    };
+  },
+  methods: {
+    showMobile() {
+      this.isActive = !this.isActive;
+    },
+  },
+};
+</script>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.nav-font{
+    font-family: 'Rubik', sans-serif !important;
+}
+.nav-before::before{
+    content: '';
+    border-left: 2px dashed #354062;
+    position: absolute;
+    top: 0%;
+    left: -1px;
+    height: 22px;
+}
+.shadow-css{
+    -webkit-box-shadow: 0px 0px 32px -3px #000000; 
+box-shadow: 0px 0px 32px -3px #000000;
+}
+#hamburger-menu {
+  top: 50%;
+  transform: translate(50%, -50%);
+  transition: all 0.4s ease-in-out;
+}
+.active {
+  right: 70%;
+  transition: all 0.4s ease-in-out;
+}
+</style>
