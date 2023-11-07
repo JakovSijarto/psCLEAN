@@ -1,8 +1,10 @@
 <template>
-    <div class="mx-auto h-[112px] w-full fixed">
+    <div class="mx-auto h-[112px] w-full fixed z-[1000] shadow-box max-[570px]:!shadow-none ">
         <nav class="flex items-center w-full justify-center bg-[#000E39] px-4 max-[570px]:hidden">
                 <div class="h-[42px] w-[1280px] flex items-center text-white max-[1000px]:w-full">
-                    <div class="w-[200px] h-[242px] bg-black  max-[1000px]:hidden">a</div>
+                    <div class="w-[140px] h-[202px] bg-white rounded-b-lg max-[1000px]:hidden flex justify-center items-center">
+                      <img src="../../../assets/logo-no-background.svg" alt="" class="w-[55%] h-full mt-[5em]">
+                    </div>
                     <div class="w-full flex justify-start text-[14px] pl-4">
                         <img src="../../../assets/navbar-footer/phone_navbar.svg" alt="" class="w-[20px]">
                         <a class="text-[#c2cdeb] nav-font pl-2" href="#">062-868-04-99</a>
@@ -19,17 +21,19 @@
         </nav>
         <nav class="bg-[#007CFB] flex items-center w-full justify-center px-4 max-[570px]:bg-white">
             <div class="h-[70px] w-[1280px] flex items-center text-white max-[1000px]:w-full">
-                <p class="w-full flex justify-start text-[14px] pl-4 min-[1000px]:hidden">LOGO</p>
+                <p class="w-full flex justify-start text-[14px] pl-4 min-[1000px]:hidden">
+                  <img src="../../../assets/logo-navbar.png" alt="" class="w-[60px] h-full">
+                </p>
                 <ul class="flex w-full justify-end text-white font-semibold max-[571px]:hidden">
                     <li class="pr-[8px]">O nama</li>
                     <li class="px-[16px]">Cjenik</li>
                     <li class="pl-[8px]">Kontakt</li>
                 </ul>
                 <ul
-          class="fixed flex justify-between items-center min-[571px]:hidden z-[101] bg-[#FAF9F6] w-full top-0 left-0 px-[1em] py-[1em]"
+          class="fixed flex justify-between items-center min-[571px]:hidden z-[101] bg-[white] w-full top-0 left-0 px-[1em] py-[1em]"
         >
           <li class="flex-1" id="navbar_logo">
-            LOGO
+            <img src="../../../assets/logo-no-background.svg" alt="" class="w-[70px] h-full">
           </li>
 
           <button
@@ -66,14 +70,14 @@
         <ul
           @click="showMobile"
           id="hamburger-menu"
-          class="fixed w-[60%] h-screen shadow-css text-[#3a4268] text-[15px] font-semibold flex flex-col items-center gap-[3em] min-[571px]:hidden bg-[#FAF9F6] pt-[15vh] z-[100] overflow-hidden right-[140%]"
+          class="fixed w-[60%] h-screen shadow-css text-[#3a4268] text-[15px] font-semibold flex flex-col items-center gap-[3em] min-[571px]:hidden bg-[#FAF9F6] pt-[10vh] z-[999] overflow-hidden right-[140%]"
           :class="{ active: isActive }"
         >
           <li class="" id="navbar_naslovnica">
-            LOGO
+            <img src="../../../assets/logo-no-background.svg" alt="" class="w-[70px] h-full">
           </li>
 
-          <li class="" id="navbar_naslovnica">
+          <li class="pt-[2em]" id="navbar_naslovnica">
             O nama
           </li>
           <li class="" id="navbar_naslovnica">
@@ -105,6 +109,17 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@media only screen and (max-width: 570px) {
+  .shadow-box{
+    -webkit-box-shadow: 0; 
+box-shadow: 0;
+}
+}
+.shadow-box{
+    -webkit-box-shadow: 5px -2px 27px 2px #000000; 
+box-shadow: 5px -2px 27px 2px #000000;
+}
 .nav-font{
     font-family: 'Rubik', sans-serif !important;
 }
