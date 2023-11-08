@@ -24,10 +24,10 @@
                 <p class="w-full flex justify-start text-[14px] pl-4 min-[1000px]:hidden">
                   <img src="../../../assets/logo-navbar.png" alt="" class="w-[60px] h-full">
                 </p>
-                <ul class="flex w-full justify-end text-white font-semibold max-[571px]:hidden">
-                    <li class="pr-[8px]">O nama</li>
-                    <li class="px-[16px]">Cjenik</li>
-                    <li class="pl-[8px]">Kontakt</li>
+                <ul class="flex w-full justify-end text-white font-semibold max-[571px]:hidden gap-[2em]">
+                  <router-link to="/"><li>Home</li></router-link>
+                    <router-link to="/aboutus"><li>O nama</li></router-link>
+                    <router-link to="/kontakt"><li>Kontakt</li></router-link>
                 </ul>
                 <ul
           class="fixed flex justify-between items-center min-[571px]:hidden z-[101] bg-[white] w-full top-0 left-0 px-[1em] py-[1em]"
@@ -70,7 +70,7 @@
         <ul
           @click="showMobile"
           id="hamburger-menu"
-          class="fixed w-[60%] h-screen shadow-css text-[#3a4268] text-[15px] font-semibold flex flex-col items-center gap-[3em] min-[571px]:hidden bg-[#FAF9F6] pt-[10vh] z-[999] overflow-hidden right-[140%]"
+          class="fixed w-[60%] h-screen shadow-css text-[#3a4268] text-[15px] font-semibold flex flex-col items-center gap-[3em] min-[571px]:hidden bg-[#Fff] pt-[10vh] z-[999] overflow-hidden right-[140%]"
           :class="{ active: isActive }"
         >
           <li class="" id="navbar_naslovnica">
@@ -78,7 +78,7 @@
           </li>
 
           <li class="pt-[2em]" id="navbar_naslovnica">
-            O nama
+           Home
           </li>
           <li class="" id="navbar_naslovnica">
             Cjenik
