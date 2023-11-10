@@ -18,9 +18,9 @@
           <small class="font-normal mb-[14px] ">for your help!</small>
           <div class="text-[16px] leading-[27px] text-[#3A4268] w-[600px] font-light mt-4 max-[1100px]:w-[90%] max-[350px]:text-[14px]">Bixol is a design studio founded in London and expanded our services, and become a multinational firm, offering solutions Worldwide.</div>
         </div>
-        <div class="flex flex-row pt-8 gap-[2em]">
-        <img src="../../assets/navbar-footer/instagram_navbar.svg" alt="">
-        <div class="">
+        <div class="flex flex-row pt-8 gap-[2em] max-[400px]:flex-col">
+        <img src="../../assets/aboutus/instagramicon_aboutus.png" alt="" class="w-[100px] max-h-[100px]">
+        <div>
             <p class="mt-[13px] mb-[7px] text-[#082680] font-extrabold">Check how we clean!</p>
             <p class="text-[#3A4268] text-[14px] w-[80%]">Reference site about Lorem Ipsum, giving information on its origins.</p>
         </div>
