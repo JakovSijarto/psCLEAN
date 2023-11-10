@@ -5,12 +5,12 @@
       <div class="text-white w-[900px] max-[1100px]:w-full  max-[1100px]:mt-[80em]   max-[754px]:text-center max-[754px]:w-[400px] max-[460px]:w-full">
         <p class="text-[60px] font-bold leading-[1.2em] max-[754px]:text-[35px]">Nudimo Vam usluge profesionalnog čišćenja</p>
         <p class="text-[18px] py-8 w-[600px] max-[1100px]:w-full max-[754px]:text-[14px]">PSClean je profesionalan u industriji čišćenja pružanjem vrhunskih usluga čišćenja i pratećih usluga</p>
-        <div class="button" id="button-7">
+        <router-link to="/aboutus" class="button" id="button-7">
     <div id="dub-arrow"><img src="../../assets/home/herosec_main_button,svg.svg" alt="" /></div>
     <a href="#" class="font-bold">Naše Usluge</a>
-  </div>
+  </router-link>
       </div>
-      <div class="bg-linear-css w-[400px] h-[800px] top-[-10em] relative max-[1100px]:top-[25em] max-[1100px]:w-[80%]  max-[1100px]:bg-[#007CFB] max-[1100px]:h-auto max-[1100px]:py-8 max-[460px]:w-full">
+      <div class="bg-linear-css w-[400px] h-[800px] top-[-10em] relative max-[1100px]:top-[25em] max-[1100px]:w-full  max-[1100px]:bg-[#007CFB] max-[1100px]:h-auto max-[1100px]:py-8 max-[460px]:w-full">
         <div class="mt-[100px] max-[1100px]:mt-[0px] flex px-[30px] text-white flex flex-col ">
           <p class="text-[24px] font-semibold mb-[24px]">Prijavite se</p>
           <form action="">
@@ -32,73 +32,50 @@
         </div>
       </div>
     </div>
-    <div class="w-full flex justify-center items-center max-[1100px]:mt-[30em]">
-      <div class="flex w-[1280px] justify-center flex-col items-center max-[1100px]:w-full px-2">
-        <div class="flex items-center justify-center flex-col pb-[25px]">
-          <div class="flex gap-[1em] my-8 flex-row items-center">
-          <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">
-          <p class="rubik-font text-[18px] font-semibold text-[#3A4268]">Fetaured service</p>
-        </div>
-        <div class="text-[#082680] text-[36px] font-extrabold flex flex-col text-center  max-[640px]:flex max-[640px]:items-center max-[640px]:justify-center max-[302px]:px-2">
-          We provide the best services
-          <small class="font-normal mb-[14px]">for your help!</small>
-          <div class="text-center text-[16px] leading-[27px] text-[#3A4268] w-[600px] font-light mt-4 max-[640px]:w-[90%]">Bixol is a design studio founded in London and expanded our services, and become a multinational firm, offering solutions Worldwide.</div>
-        </div>
-        </div>
-        <div class="flex gap-[2em] mt-[3em]   max-[670px]:flex-col max-[670px]:justify-center max-[670px]:items-center">
-          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[670px]:w-[90%]">
-            <img src="../../assets/home/house-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line">House Cleaning</p>
-            <p class="w-[80%] rubik-font text-[#3A4268]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum inventore</p>
-          </div>
-          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[670px]:w-[90%]">
-            <img src="../../assets/home/plants-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line">House Cleaning</p>
-            <p class="w-[80%] rubik-font text-[#3A4268]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum inventore</p>
-          </div>
-          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[670px]:w-[90%]">
-            <img src="../../assets/home/indoor-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line">House Cleaning</p>
-            <p class="w-[80%] rubik-font text-[#3A4268]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum inventore</p>
-          </div>
-        </div>
-      </div>
+    <div class="max-[1100px]:mt-[30em]">
+      <aboutussection/>  
     </div>
-
+    
 
     <div class="w-full flex justify-center items-center pt-[95px]">
       <div class="flex w-[880px] justify-center flex-col items-center max-[1100px]:w-full max-[1100px]:px-8 max-[670px]:px-2">
         <div class="flex w-full justify-between items-center max-[670px]:flex-col">
           <div class="max-[670px]:flex max-[670px]:flex-col max-[670px]:items-center">
-            <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]"> Why choose us?</p>
-            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col text-start mt-[15px] max-[670px]:text-center">For our best quality <small class="font-normal mb-[14px]">you have chosen us</small></p>
+            <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]"> Zašto izabrati nas?</p>
+            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col text-start mt-[15px] max-[670px]:text-center">Zbog naše kvalitete <small class="font-normal mb-[14px]">izaberite nas!</small></p>
           </div>
-          <p class="w-[430px] text-[#3A4268] rubik-font max-[670px]:text-center max-[670px]:w-[90%]">Our agency can only be as strong as our people & because of this, our team have designed game changing products</p>
+          <p class="w-[430px] text-[#3A4268] rubik-font max-[670px]:text-center max-[670px]:w-[90%]">Naša agencija ima najbolje ljude i proizvode za čiščenje. Ovo su neke od stvari kojih se uvijek držimo.</p>
         </div>
         <div class="w-[880px] flex justify-center item-center mt-[42px] max-[1100px]:w-full ">
-        <tabs lass="" :options="{ defaultTabHash: 'second-tab' }">
-        <tab name="First tab" class="flex h-[400px] max-[470px]:flex-col">
-            <div class="w-[50%]">
-              <p>a</p>
+        <tabs class="mb-[10em] max-[620px]:mb-[20em] max-[620px]:mb-[28em]" :options="{ defaultTabHash: 'second-tab' }" >
+        <tab name="Naša Filozofija" class="flex h-[400px] max-[620px]:flex-col">
+            <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px] pl-[40px]">
+              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Lorem ipsum dolor sit amet!</p>
+              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">We know that if you love our service you’re going to recommend us to your family and friends, so your satisfaction is our number one priority. If you’re unhappy with our service in any way</p>
+              <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link> 
             </div>
             <div class="w-[50%]">
-              <img src="../../assets/home/herosec_main_photo.png" alt="" class="w-[100%]">
+              <img src="../../assets/home/nasafilozofija-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
             </div>
         </tab>
-        <tab name="Default tab" class="flex h-[400px] max-[470px]:flex-col">
-          <div class="w-[50%]">
-              <p>b</p>
+        <tab name="Misija Kompanije" class="flex h-[400px] max-[620px]:flex-col">
+          <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
+              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Lorem ipsum dolor sit amet!</p>
+              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">We know that if you love our service you’re going to recommend us to your family and friends, so your satisfaction is our number one priority. If you’re unhappy with our service in any way</p>
+              <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link> 
             </div>
-            <div class="w-[50%]">
-              <img src="../../assets/home/herosec_main_photo.png" alt="" class="w-[100%]">
+            <div class="w-[50%] max-[620px]:w-full">
+              <img src="../../assets/home/misijakompanije-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
             </div>
         </tab>
-        <tab name="Third tab" class="flex h-[400px] max-[470px]:flex-col">
-          <div class="w-[50%]">
-              <p>c</p>
+        <tab name="Naša Vizija" class="flex h-[400px] max-[620px]:flex-col">
+          <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px] pl-[40px]">
+              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Lorem ipsum dolor sit amet!</p>
+              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">We know that if you love our service you’re going to recommend us to your family and friends, so your satisfaction is our number one priority. If you’re unhappy with our service in any way</p>
+             <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link> 
             </div>
             <div class="w-[50%]">
-              <img src="../../assets/home/herosec_main_photo.png" alt="" class="w-[100%]">
+              <img src="../../assets/home/našavizija-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
             </div>
         </tab>
     </tabs>
@@ -106,7 +83,7 @@
       </div>
     </div>
     
-    <div class="w-full flex justify-center items-center pt-18">
+    <div class="w-full flex justify-center items-center py-18 pb-32 ">
       <div class="flex w-[880px] justify-center flex-col items-center max-[1100px]:w-full max-[1100px]:px-8 max-[920px]:px-2">
         <div class="flex w-full justify-between items-center max-[920px]:flex-col">
           <div class="max-[920px]:flex max-[920px]:flex-col max-[920px]:items-center">
@@ -140,48 +117,18 @@
                     <p class="w-[60%]">As a app web crawler expert, I help organizations adjust to the expanding significance of internet.</p>
             </div>
         </div>
-        <button class="mt-12">aaa</button>
+        <button class="rounded-[50px] mt-[4em] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button>
       </div>
     </div>
 
-    <div class="flex items-center justify-center flex-col pb-[25px] pt-[5em]">
-          <div class="flex gap-[1em] my-8 flex-row items-center">
-          <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">
-          <p class="rubik-font text-[18px] font-semibold text-[#3A4268]">Fetaured service</p>
-        </div>
-        <div class="text-[#082680] text-[36px] font-extrabold flex flex-col text-center  max-[640px]:flex max-[640px]:items-center max-[640px]:justify-center max-[302px]:px-2">
-          We provide the best services
-          <small class="font-normal mb-[14px]">for your help!</small>
-          </div>
-
-          <div class="w-[1280px] flex justify-between items-center pt-[30px] gap-[1em] max-[1300px]:w-full max-[1300px]:px-4 max-[870px]:flex-col max-[870px]:w-[70%] max-[440px]:w-full">
-            <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px]">
-              <img src="../../assets/home/plants-aboutus-home.svg" alt="" class="mr-[16px]">
-              <div class="flex flex-col">
-                <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Office addresss</p>
-                <p class="text-[14px] text-[#3A4268]">Ulica 2, Srbija</p> 
-              </div>
-            </div>
-            <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px]">
-              <img src="../../assets/home/plants-aboutus-home.svg" alt="" class="mr-[16px]">
-              <div class="flex flex-col">
-                <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Office addresss</p>
-                <p class="text-[14px] text-[#3A4268]">Ulica 2, Srbija</p> 
-              </div>
-            </div>
-            <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px]">
-              <img src="../../assets/home/plants-aboutus-home.svg" alt="" class="mr-[16px]">
-              <div class="flex flex-col">
-                <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Office addresss</p>
-                <p class="text-[14px] text-[#3A4268]">Ulica 2, Srbija</p> 
-              </div>
-            </div>
-          </div>
-        </div>
-
+       <kontaktbottom/>
   </div>
-  
 </template>
+
+<script setup>
+import aboutussection from "./components/aboutus-services.vue"
+ import kontaktbottom from "./components/contact-bottom.vue"
+</script>
 
 <script>
 import {Tabs, Tab} from 'vue3-tabs-component';
@@ -231,6 +178,27 @@ export default{
  width: 100%;
 }
 }
+.small-line::before{
+  content: '';
+    width: 28px;
+    height: 3px;
+    background-color: #007cfb;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 3.2em;
+}
+.cssdottedborder{
+  width: 80px;
+  height: 80px;
+  padding: 7px;
+  border-radius: 50%;
+  border: 2px dashed #000E39;
+  box-shadow: 0 0 0 4px #fff;
+}
+.box-shadow-aboutus{
+  -webkit-box-shadow: 0px 1px 23px -1px #007dfb34; 
+box-shadow: 0px 1px 23px -1px #007dfb44;
+}
 </style>
 
 <style scoped>
@@ -263,28 +231,6 @@ box-shadow: 0px 23px 0px 0px #007CFB;
     margin-left: 3.2em;
 }
 
-.small-line::before{
-  content: '';
-    width: 28px;
-    height: 3px;
-    background-color: #007cfb;
-    position: absolute;
-    margin-top: 2em;
-    margin-left: 3.2em;
-}
-
-.cssdottedborder{
-  width: 80px;
-  height: 80px;
-  padding: 7px;
-  border-radius: 50%;
-  border: 2px dashed #000E39;
-  box-shadow: 0 0 0 4px #fff;
-}
-.box-shadow-aboutus{
-  -webkit-box-shadow: 0px 1px 23px -1px #007dfb34; 
-box-shadow: 0px 1px 23px -1px #007dfb44;
-}
 ::placeholder{
   color:white;
 }

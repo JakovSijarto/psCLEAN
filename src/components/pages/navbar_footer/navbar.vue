@@ -7,15 +7,15 @@
                     </div>
                     <div class="w-full flex justify-start text-[14px] pl-4">
                         <img src="../../../assets/navbar-footer/phone_navbar.svg" alt="" class="w-[20px]">
-                        <a class="text-[#c2cdeb] nav-font pl-2" href="#">062-868-04-99</a>
+                        <a class="text-[#c2cdeb] nav-font pl-2" href="tel:+381628680499">062-868-04-99</a>
                         <div class="relative pl-[44px] ml-[44px] nav-before flex flex-row">
                             <img src="../../../assets/navbar-footer/mail_navbar.svg" alt="" class="w-[20px]">
-                            <a class="text-[#c2cdeb] nav-font pl-2" href="#">psclean906@gmail.com</a>
+                            <a class="text-[#c2cdeb] nav-font pl-2" href="mailto:psclean906@gmail.com">psclean906@gmail.com</a>
                         </div>
                     </div>
                     <div class="flex justify-end">
-                        <img src="../../../assets/navbar-footer/navbar_facebook.svg" alt="" class="w-[15px] mr-4">
-                        <img src="../../../assets/navbar-footer/instagram_navbar.svg" alt="" class="w-[15px]">
+                      <a href="https://www.facebook.com/profile.php?id=61552836153409"><img src="../../../assets/navbar-footer/navbar_facebook.svg" alt="" class="w-[15px] mr-4"></a> 
+                      <a href="https://www.instagram.com/pscleanbeograd/"><img src="../../../assets/navbar-footer/instagram_navbar.svg" alt="" class="w-[15px]"></a> 
                     </div>
                 </div>
         </nav>

@@ -9,19 +9,20 @@
                     <p>Mon – Sat: 8 am – 5 pm</p>
                     <p>Sunday: ZATVORENO</p>
                 </li>
-                <li class="max-[1000px]:hidden">
-                    <img src="../../../assets/logo-no-background.svg" alt="" class="w-[10em]">
-                </li>
                 <li class="text-[#C2D5E7] text-[14px]">
                     <p class="text-[24px] font-bold !text-white leading-relaxed max-[500px]:mt-8 max-[500px]:text-left">INFO:</p>
                     <p class="flex gap-[0.5em] mt-4"><img src="../../../assets/navbar-footer/location_footer.svg" alt="" class="w-[20px]">Ulica 2, Srbija</p>
-                    <p class="flex gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">062-868-04-99</p>
-                    <p class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">psclean906@gmail.com</p>
+                    <a href="tel:+381628680499" class="flex gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">062-868-04-99</a>
+                    <a href="mailto:psclean906@gmail.com" class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">psclean906@gmail.com</a>
                     <div class="flex pt-4 gap-4">
-                        <img src="../../../assets/navbar-footer/facebook_footer.svg" alt="" class="w-[30px] h-[30px] ">
-                        <img src="../../../assets/navbar-footer/instagram_footer.svg" alt="" class="w-[30px] h-[30px]">
+                       <a href="https://www.facebook.com/profile.php?id=61552836153409"><img src="../../../assets/navbar-footer/facebook_footer.svg" alt="" class="w-[30px] h-[30px] "></a> 
+                       <a href="https://www.instagram.com/pscleanbeograd/"><img src="../../../assets/navbar-footer/instagram_footer.svg" alt="" class="w-[30px] h-[30px]"></a> 
                     </div>
                 </li>
+                <li class="max-[1000px]:hidden">
+                    <img src="../../../assets/logo-no-background.svg" alt="" class="w-[10em]">
+                </li>
+               
             </ul>
         </div>
     </div>
