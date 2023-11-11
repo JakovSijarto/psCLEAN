@@ -13,9 +13,12 @@
             <div class="w-[49%] max-[630px]:w-full">
               <input type="text" name="ime" placeholder="Ime" class="" required v-model="ime">
             </div>
-            <div class="w-[49%] max-[630px]:w-full max-[630px]:mt-[16px]">
-              <input type="text" name="prezime" placeholder="Prezime" required v-model="prezime">
-            </div>
+            <select class="w-[49%] max-[630px]:w-full border-b-2 border-[#3A4268] py-[15px] max-[630px]:pt-[25px]">
+                <option value="" disabled selected hidden>Izaberi uslugu*</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              <option value="">3</option>
+            </select>
           </div>
           <div class="flex justify-between max-[630px]:flex-col">
             <div class="w-[49%] max-[630px]:w-full my-[1rem]">
@@ -39,11 +42,6 @@ import kontaktbottom from "./components/contact-bottom.vue"
 </script>
 
 <style scoped>
-@media only screen and (max-width: 700px){
-	.big-text{
-  font-size: 20vw;
-}
-}
 
 input {
   outline: none;

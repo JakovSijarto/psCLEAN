@@ -20,7 +20,7 @@
           </div>
           <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%]">
             <img src="../../../assets/home/plants-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px] small-line_about2 w-[40%]">Održavanje biljaka</p>
+            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px] small-line_about2 min-[950px]:w-[40%]">Održavanje biljaka</p>
             <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum inventore</p>
           </div>
           <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%]">

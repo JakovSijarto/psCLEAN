@@ -11,24 +11,24 @@
 
           <div class="w-[1280px] flex justify-between items-center pt-[30px] gap-[1em] max-[1300px]:w-full max-[1300px]:px-4 max-[870px]:flex-col max-[870px]:w-[70%] max-[440px]:w-full">
             <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
-              <img src="../../../assets/home/plants-aboutus-home.svg" alt="" class="mr-[16px]">
+              <img src="../../../assets/contact/location_contact.svg" alt="" class="mr-[16px]">
               <div class="flex flex-col">
                 <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Naša Adresa</p>
                 <p class="text-[14px] text-[#3A4268]">Ulica 2, Srbija</p> 
               </div>
             </div>
             <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
-              <img src="../../../assets/home/plants-aboutus-home.svg" alt="" class="mr-[16px]">
+              <img src="../../../assets/contact/telephonecall_contact.svg" alt="" class="mr-[16px]">
               <div class="flex flex-col">
                 <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Telefonski Broj</p>
                 <p class="text-[14px] text-[#3A4268]">062-868-04-99</p> 
               </div>
             </div>
             <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
-              <img src="../../../assets/home/plants-aboutus-home.svg" alt="" class="mr-[16px]">
+              <img src="../../../assets/contact/mail_contact.svg" alt="" class="mr-[16px]">
               <div class="flex flex-col ">
                 <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Mail Adresa</p>
-                <p class="text-[14px] text-[#3A4268] max-[295px]:text-[12px]">psclean906@gmail.com</p> 
+                <p class="text-[14px] text-[#3A4268] max-[310px]:text-[12px]">psclean906@gmail.com</p> 
               </div>
             </div>
           </div>

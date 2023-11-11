@@ -12,7 +12,7 @@
       </div>
       <div class="bg-linear-css w-[400px] h-[800px] top-[-10em] relative max-[1100px]:top-[25em] max-[1100px]:w-full  max-[1100px]:bg-[#007CFB] max-[1100px]:h-auto max-[1100px]:py-8 max-[460px]:w-full">
         <div class="mt-[100px] max-[1100px]:mt-[0px] flex px-[30px] text-white flex flex-col ">
-          <p class="text-[24px] font-semibold mb-[24px]">Prijavite se</p>
+          <p class="text-[24px] font-semibold mb-[24px]">Zatražite uslugu</p>
           <form action="">
             <input type="text" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Ime*">
             <input type="text" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Broj Mobitela*">
@@ -47,7 +47,7 @@
           <p class="w-[430px] text-[#3A4268] rubik-font max-[670px]:text-center max-[670px]:w-[90%]">Naša agencija ima najbolje ljude i proizvode za čiščenje. Ovo su neke od stvari kojih se uvijek držimo.</p>
         </div>
         <div class="w-[880px] flex justify-center item-center mt-[42px] max-[1100px]:w-full ">
-        <tabs class="mb-[10em] max-[620px]:mb-[20em]" :options="{ defaultTabHash: 'second-tab' }" >
+        <tabs class="mb-[10em] max-[620px]:mb-[26em]" :options="{ defaultTabHash: 'second-tab' }" >
         <tab name="Naša Filozofija" class="flex h-[400px] max-[620px]:flex-col">
             <div class="w-[50%] pt-[51px] max-[620px]:pt-[30px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
               <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Lorem ipsum dolor sit amet!</p>
@@ -95,25 +95,25 @@
         <div class=" flex w-[1280px]  max-[1270px]:w-full  mt-12 justify-between px-4 max-[660px]:items-center max-[660px]:gap-[2em] max-[660px]:w-full max-[920px]:flex-col max-[920px]:justify-center max-[920px]:items-center max-[920px]:gap-20">
           <div class="mb-[3px] flex justify-center flex-col items-center text-center max-[920px]:flex max-[920px]:flex-row   max-[920px]:justify-center max-[920px]:items-center max-[660px]:gap-[1em] max-[530px]:flex-col ">
               <div class="flex justify-center items-center bg-[#F1F3F8] w-[100px] h-[100px] mb-8  rounded-[50%] box-shadow-aboutusimg">
-                          <img src="../../assets/home/plants-aboutus-home.svg" alt="" class="w-[50px]">
+                          <img src="../../assets/home/potražiagentra_home.svg" alt="" class="w-[50px]">
                     </div>
-                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive2 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">Find our agent</p>
+                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive2 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">Pronađi Agenta</p>
                     <p class="w-[60%]">As a app web crawler expert, I help organizations adjust to the expanding significance of internet.</p>
             </div>
 
             <div class="mb-[3px] text-center flex justify-center flex-col items-center max-[920px]:flex max-[920px]:flex-row max-[660px]:gap-[1em] max-[920px]:justify-center max-[920px]:items-center max-[530px]:flex-col">
               <div class="flex justify-center items-ccenter bg-[#F1F3F8] w-[100px] h-[100px] mb-8 rounded-[50%] box-shadow-aboutusimg">
-                          <img src="../../assets/home/plants-aboutus-home.svg" alt="" class="w-[50px]">
+                          <img src="../../assets/home/calculator_home.svg" alt="" class="w-[50px]">
                     </div>
-                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive2 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">Estimate budget</p>
+                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive3 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">Dobite Račun</p>
                     <p class="w-[60%]">As a app web crawler expert, I help organizations adjust to the expanding significance of internet.</p>
             </div>
 
             <div class="mb-[3px] text-center flex justify-center flex-col items-center max-[920px]:flex max-[920px]:flex-row max-[660px]:gap-[1em] max-[920px]:justify-center max-[920px]:items-center max-[530px]:flex-col">
               <div class="flex justify-center items-center bg-[#F1F3F8] w-[100px] h-[100px] mb-8  rounded-[50%] box-shadow-aboutusimg">
-                          <img src="../../assets/home/plants-aboutus-home.svg" alt="" class="w-[50px]">
+                          <img src="../../assets/home/target_home.svg" alt="" class="w-[50px]">
                     </div>
-                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive2 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0">Hire our agent!</p>
+                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive4 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0">Angažirajte Agenta!</p>
                     <p class="w-[60%]">As a app web crawler expert, I help organizations adjust to the expanding significance of internet.</p>
             </div>
         </div>
@@ -212,6 +212,12 @@ box-shadow: 0px 1px 23px -1px #007dfb44;
   .small-line-responsive2::before{
   content: none !important;
 }
+.small-line-responsive3::before{
+  content: none !important;
+}
+.small-line-responsive4::before{
+  content: none !important;
+}
 }
 
 
@@ -230,7 +236,24 @@ box-shadow: 0px 23px 0px 0px #007CFB;
     margin-top: 2em;
     margin-left: 3.2em;
 }
-
+.small-line-responsive3::before{
+  content: '';
+    width: 28px;
+    height: 3px;
+    background-color: #007cfb;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 2.7em;
+}
+.small-line-responsive4::before{
+  content: '';
+    width: 28px;
+    height: 3px;
+    background-color: #007cfb;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 4.2em;
+}
 ::placeholder{
   color:white;
 }

@@ -77,14 +77,14 @@
             <img src="../../../assets/logo-no-background.svg" alt="" class="w-[70px] h-full">
           </li>
 
-          <li class="pt-[2em]" id="navbar_naslovnica">
-           Home
+          <li class="mt-[2em]" id="navbar_naslovnica">
+            <router-link class="hamburger-text" to="/">Home</router-link>
           </li>
           <li class="" id="navbar_naslovnica">
-            Cjenik
+            <router-link class="hamburger-text" to="/kontakt">Kontakt</router-link>
           </li>
           <li class="" id="navbar_naslovnica">
-            Kontakt
+            <router-link class="hamburger-text" to="/aboutus">O nama</router-link>
           </li>
         </ul>
             </div>
