@@ -1,9 +1,9 @@
 <template>
-    <div class="mx-auto h-[112px] w-full fixed z-[1000] shadow-box max-[570px]:!shadow-none ">
+    <div class="mx-auto h-[112px] w-full fixed z-[1000] shadow-box max-[570px]:!shadow-none max-[571px]:h-[81px]">
         <nav class="flex items-center w-full justify-center bg-[#000E39] px-4 max-[570px]:hidden">
                 <div class="h-[42px] w-[1280px] flex items-center text-white max-[1000px]:w-full">
                     <div class="w-[140px] h-[202px] bg-white rounded-b-lg max-[1000px]:hidden flex justify-center items-center">
-                      <img src="../../../assets/logo-no-background.svg" alt="" class="w-[55%] h-full mt-[5em]">
+                      <img src="../../../assets/logo.png" alt="" class="w-[65%] h-[40%] mt-[5em]">
                     </div>
                     <div class="w-full flex justify-start text-[14px] pl-4">
                         <img src="../../../assets/navbar-footer/phone_navbar.svg" alt="" class="w-[20px]">
@@ -21,8 +21,8 @@
         </nav>
         <nav class="bg-[#007CFB] flex items-center w-full justify-center px-4 max-[570px]:bg-white">
             <div class="h-[70px] w-[1280px] flex items-center text-white max-[1000px]:w-full">
-                <p class="w-full flex justify-start text-[14px] pl-4 min-[1000px]:hidden">
-                  <img src="../../../assets/logo-navbar.png" alt="" class="w-[60px] h-full">
+                <p class="w-full flex justify-start text-[14px] pl-4 min-[1000px]:hidden max-[571px]:hidden">
+                  <img src="../../../assets/good_logo.png" alt="" class="w-[60px] h-full ">
                 </p>
                 <ul class="flex w-full justify-end text-white font-semibold max-[571px]:hidden gap-[2em]">
                   <router-link to="/"><li>Home</li></router-link>
@@ -31,9 +31,10 @@
                 </ul>
                 <ul
           class="fixed flex justify-between items-center min-[571px]:hidden z-[101] bg-[white] w-full top-0 left-0 px-[1em] py-[1em]"
+          style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);"
         >
           <li class="flex-1" id="navbar_logo">
-            <img src="../../../assets/logo-no-background.svg" alt="" class="w-[70px] h-full">
+            <img src="../../../assets/logo.png" alt="" class="w-[50px] h-[40%]">
           </li>
 
           <button
@@ -74,7 +75,7 @@
           :class="{ active: isActive }"
         >
           <li class="" id="navbar_naslovnica">
-            <img src="../../../assets/logo-no-background.svg" alt="" class="w-[70px] h-full">
+            <img src="../../../assets/logo.png" alt="" class="w-[70px] h-full">
           </li>
 
           <li class="mt-[2em]" id="navbar_naslovnica">

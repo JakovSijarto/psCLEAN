@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-[112px]">   
+    <div class="pt-[112px] max-[571px]:pt-[81px]">   
         <div class=" w-full flex justify-center items-center bg-black">
             <img src="../../assets/home/herosec_about_kontakt.jpg" alt="" class="h-[300px] w-full object-cover opacity-[0.4]">
             <p class="absolute text-[60px] font-bold text-white max-[310px]:text-[40px] tracking-[5px]">KONTAKT</p>
@@ -15,9 +15,9 @@
             </div>
             <select class="w-[49%] max-[630px]:w-full border-b-2 border-[#3A4268] py-[15px] max-[630px]:pt-[25px]">
                 <option value="" disabled selected hidden>Izaberi uslugu*</option>
-                <option value="">1</option>
-                <option value="">2</option>
-              <option value="">3</option>
+                <option value="">Čiśćenje privatnih stanova/kuća</option>
+                <option value="">Čiśćenje poslovnih prostora</option>
+              <option value="">Održavanje biljaka</option>
             </select>
           </div>
           <div class="flex justify-between max-[630px]:flex-col">

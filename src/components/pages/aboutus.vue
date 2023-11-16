@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-[112px]">   
+    <div class="pt-[112px] max-[571px]:pt-[81px]">   
         <div class=" w-full flex justify-center items-center bg-black">
             <img src="../../assets/home/herosec_about_kontakt.jpg" alt="" class="h-[300px] w-full object-cover opacity-[0.4]">
             <p class="absolute text-[60px] font-bold text-white max-[310px]:text-[40px] tracking-[5px]">O NAMA</p>
