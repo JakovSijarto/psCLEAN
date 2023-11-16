@@ -19,10 +19,6 @@
                        <a href="https://www.instagram.com/pscleanbeograd/"><img src="../../../assets/navbar-footer/instagram_footer.svg" alt="" class="w-[30px] h-[30px]"></a> 
                     </div>
                 </li>
-                <li class="max-[1000px]:hidden">
-                    <img src="../../../assets/logo-no-background.svg" alt="" class="w-[10em]">
-                </li>
-               
             </ul>
         </div>
     </div>
